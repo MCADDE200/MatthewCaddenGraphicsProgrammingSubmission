@@ -9,10 +9,11 @@ out VS_OUT {
 uniform mat4 projection;
 uniform mat4 view;
 uniform mat4 model;
+uniform mat4 transform; 
 
 void main()
 {
-    gl_Position = projection * view * model * vec4(VertexPosition, 1.0); 
+    gl_Position = transform  * vec4(VertexPosition, 1.0); 
     mat3 normalMatrix = mat3(transpose(inverse(view * model)));
     vs_out.normal = normalize(vec3(projection * vec4(normalMatrix * VertexNormal, 0.0)));
 }

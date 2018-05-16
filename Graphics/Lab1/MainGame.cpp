@@ -130,6 +130,7 @@ void MainGame::playAudio(unsigned int Source, glm::vec3 pos)
 {
 	
 	ALint state; 
+
 	alGetSourcei(Source, AL_SOURCE_STATE, &state);
 	/*
 	Possible values of state
