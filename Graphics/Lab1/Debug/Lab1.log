@@ -1,0 +1,14 @@
+﻿  Texture.cpp
+  Shader.cpp
+  Overlay.cpp
+  obj_loader.cpp
+c:\users\weema\desktop\matthewcaddengraphicsprogrammingsubmission\graphics\lab1\obj_loader.cpp(378): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Mesh.cpp
+c:\users\weema\desktop\matthewcaddengraphicsprogrammingsubmission\graphics\lab1\mesh.cpp(62): warning C4930: 'Sphere meshSphere(void)': prototyped function not called (was a variable definition intended?)
+  MainGame.cpp
+  main.cpp
+  Display.cpp
+  Audio.cpp
+  Generating Code...
+  stb_image.c
+  Lab1.vcxproj -> C:\Users\WeeMa\Desktop\MatthewCaddenGraphicsProgrammingSubmission\Graphics\Debug\Lab1.exe
